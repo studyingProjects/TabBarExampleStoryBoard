@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,12 +33,39 @@
                         <segue destination="BHS-M0-OFE" kind="relationship" relationship="viewControllers" id="7cV-nQ-XMC"/>
                         <segue destination="aNE-QW-bmz" kind="relationship" relationship="viewControllers" id="h5y-Ic-fkE"/>
                         <segue destination="PwS-wg-gjE" kind="relationship" relationship="viewControllers" id="VEF-YA-rm5"/>
-                        <segue destination="b46-me-8og" kind="relationship" relationship="viewControllers" id="iVa-hz-Imk"/>
+                        <segue destination="LtV-FD-Whs" kind="relationship" relationship="viewControllers" id="iVa-hz-Imk"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RSi-1E-NTa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="571.75572519083971" y="-180.28169014084509"/>
+        </scene>
+        <!--Timers-->
+        <scene sceneID="CQm-Od-59B">
+            <objects>
+                <viewController id="LtV-FD-Whs" customClass="TimersViewController" customModule="TabBarExampleStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yts-Qq-uEt">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DQ-Mf-0Ta">
+                                <rect key="frame" x="158.66666666666666" y="408.66666666666669" width="76" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Timers"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="273-A3-xQp"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2DQ-Mf-0Ta" firstAttribute="centerY" secondItem="yts-Qq-uEt" secondAttribute="centerY" id="mCl-62-v2v"/>
+                            <constraint firstItem="2DQ-Mf-0Ta" firstAttribute="centerX" secondItem="yts-Qq-uEt" secondAttribute="centerX" id="uD2-eB-E9K"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Timers" image="timer" catalog="system" id="JPh-AT-WBn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nre-iY-CSp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="654" y="561"/>
         </scene>
         <!--WorldClock-->
         <scene sceneID="k4d-rd-Nee">
@@ -69,18 +97,9 @@
             </objects>
             <point key="canvasLocation" x="236" y="242"/>
         </scene>
-        <!--Timers-->
-        <scene sceneID="ifl-79-myq">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Timers" id="b46-me-8og" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="uqS-OF-mmI"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PSV-xn-LfV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="654" y="561"/>
-        </scene>
     </scenes>
     <resources>
+        <image name="timer" catalog="system" width="128" height="123"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

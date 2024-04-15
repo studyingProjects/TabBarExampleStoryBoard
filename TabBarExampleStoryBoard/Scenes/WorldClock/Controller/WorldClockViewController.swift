@@ -7,4 +7,4 @@
 
 import UIKit
 
-class MainViewController: UIViewController {}
+class WorldClockViewController: UIViewController {}

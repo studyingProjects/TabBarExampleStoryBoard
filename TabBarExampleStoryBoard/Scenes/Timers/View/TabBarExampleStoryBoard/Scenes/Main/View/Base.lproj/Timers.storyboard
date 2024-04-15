@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LtV-FD-Whs">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Timers-->
+        <scene sceneID="CQm-Od-59B">
+            <objects>
+                <viewController id="LtV-FD-Whs" customClass="TimersViewController" customModule="TabBarExampleStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yts-Qq-uEt">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DQ-Mf-0Ta">
+                                <rect key="frame" x="158.66666666666666" y="408.66666666666669" width="76" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Timers"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="273-A3-xQp"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2DQ-Mf-0Ta" firstAttribute="centerY" secondItem="yts-Qq-uEt" secondAttribute="centerY" id="mCl-62-v2v"/>
+                            <constraint firstItem="2DQ-Mf-0Ta" firstAttribute="centerX" secondItem="yts-Qq-uEt" secondAttribute="centerX" id="uD2-eB-E9K"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Timers" image="timer" catalog="system" id="JPh-AT-WBn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nre-iY-CSp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="654" y="561"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="timer" catalog="system" width="128" height="123"/>
+    </resources>
+</document>

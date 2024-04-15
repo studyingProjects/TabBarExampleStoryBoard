@@ -12,10 +12,15 @@
 		6CA371672BCD235D00BFBE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA371652BCD235D00BFBE15 /* Main.storyboard */; };
 		6CA371692BCD235D00BFBE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA371682BCD235D00BFBE15 /* Assets.xcassets */; };
 		6CA3716C2BCD235D00BFBE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3716A2BCD235D00BFBE15 /* LaunchScreen.storyboard */; };
-		6CA3717C2BCD2EE400BFBE15 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3717B2BCD2EE400BFBE15 /* MainViewController.swift */; };
+		6CA3717C2BCD2EE400BFBE15 /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3717B2BCD2EE400BFBE15 /* WorldClockViewController.swift */; };
 		6CA3717F2BCD4F9600BFBE15 /* AlarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3717E2BCD4F9600BFBE15 /* AlarmsViewController.swift */; };
 		6CA371812BCD506E00BFBE15 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA371802BCD506E00BFBE15 /* StopwatchViewController.swift */; };
 		6CA371832BCD50CA00BFBE15 /* TimersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA371822BCD50CA00BFBE15 /* TimersViewController.swift */; };
+		6CA371852BCD54D900BFBE15 /* Task.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6CA371842BCD54D900BFBE15 /* Task.rtf */; };
+		6CA371942BCD58D000BFBE15 /* WorldClock.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA371922BCD58D000BFBE15 /* WorldClock.storyboard */; };
+		6CA3719B2BCD597800BFBE15 /* Alarms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA371992BCD597800BFBE15 /* Alarms.storyboard */; };
+		6CA3719E2BCD59AD00BFBE15 /* Stopwatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3719C2BCD59AD00BFBE15 /* Stopwatch.storyboard */; };
+		6CA371A12BCD59F800BFBE15 /* Timers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3719F2BCD59F800BFBE15 /* Timers.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +31,15 @@
 		6CA371682BCD235D00BFBE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CA3716B2BCD235D00BFBE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CA3716D2BCD235D00BFBE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CA3717B2BCD2EE400BFBE15 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6CA3717B2BCD2EE400BFBE15 /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 		6CA3717E2BCD4F9600BFBE15 /* AlarmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsViewController.swift; sourceTree = "<group>"; };
 		6CA371802BCD506E00BFBE15 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
 		6CA371822BCD50CA00BFBE15 /* TimersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersViewController.swift; sourceTree = "<group>"; };
+		6CA371842BCD54D900BFBE15 /* Task.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Task.rtf; sourceTree = "<group>"; };
+		6CA371932BCD58D000BFBE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TabBarExampleStoryBoard/Scenes/Main/View/Base.lproj/WorldClock.storyboard; sourceTree = "<group>"; };
+		6CA3719A2BCD597800BFBE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TabBarExampleStoryBoard/Scenes/Main/View/Base.lproj/Alarms.storyboard; sourceTree = "<group>"; };
+		6CA3719D2BCD59AD00BFBE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TabBarExampleStoryBoard/Scenes/Main/View/Base.lproj/Stopwatch.storyboard; sourceTree = "<group>"; };
+		6CA371A02BCD59F800BFBE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TabBarExampleStoryBoard/Scenes/Main/View/Base.lproj/Timers.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				6CA371772BCD2EA700BFBE15 /* Main */,
+				6CA371952BCD58D700BFBE15 /* WorldClock */,
+				6CA371862BCD585200BFBE15 /* Alarms */,
+				6CA371872BCD585B00BFBE15 /* Stopwatch */,
+				6CA371882BCD586200BFBE15 /* Timers */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -89,6 +103,7 @@
 		6CA371762BCD2BDF00BFBE15 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				6CA371842BCD54D900BFBE15 /* Task.rtf */,
 				6CA3716A2BCD235D00BFBE15 /* LaunchScreen.storyboard */,
 				6CA371682BCD235D00BFBE15 /* Assets.xcassets */,
 				6CA3716D2BCD235D00BFBE15 /* Info.plist */,
@@ -109,10 +124,6 @@
 		6CA371782BCD2EC200BFBE15 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6CA3717B2BCD2EE400BFBE15 /* MainViewController.swift */,
-				6CA3717E2BCD4F9600BFBE15 /* AlarmsViewController.swift */,
-				6CA371802BCD506E00BFBE15 /* StopwatchViewController.swift */,
-				6CA371822BCD50CA00BFBE15 /* TimersViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -126,6 +137,138 @@
 			sourceTree = "<group>";
 		};
 		6CA3717A2BCD2ECB00BFBE15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CA371862BCD585200BFBE15 /* Alarms */ = {
+			isa = PBXGroup;
+			children = (
+				6CA371912BCD58AA00BFBE15 /* Model */,
+				6CA371902BCD58A800BFBE15 /* View */,
+				6CA3718F2BCD58A400BFBE15 /* Controller */,
+			);
+			path = Alarms;
+			sourceTree = "<group>";
+		};
+		6CA371872BCD585B00BFBE15 /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				6CA3718E2BCD58A000BFBE15 /* Model */,
+				6CA3718D2BCD589D00BFBE15 /* View */,
+				6CA3718A2BCD588C00BFBE15 /* Controller */,
+			);
+			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		6CA371882BCD586200BFBE15 /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				6CA3718C2BCD589700BFBE15 /* Model */,
+				6CA3718B2BCD589400BFBE15 /* View */,
+				6CA371892BCD588100BFBE15 /* Controller */,
+			);
+			path = Timers;
+			sourceTree = "<group>";
+		};
+		6CA371892BCD588100BFBE15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CA371822BCD50CA00BFBE15 /* TimersViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CA3718A2BCD588C00BFBE15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CA371802BCD506E00BFBE15 /* StopwatchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CA3718B2BCD589400BFBE15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CA3719F2BCD59F800BFBE15 /* Timers.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CA3718C2BCD589700BFBE15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CA3718D2BCD589D00BFBE15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CA3719C2BCD59AD00BFBE15 /* Stopwatch.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CA3718E2BCD58A000BFBE15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CA3718F2BCD58A400BFBE15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CA3717E2BCD4F9600BFBE15 /* AlarmsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CA371902BCD58A800BFBE15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CA371992BCD597800BFBE15 /* Alarms.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CA371912BCD58AA00BFBE15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CA371952BCD58D700BFBE15 /* WorldClock */ = {
+			isa = PBXGroup;
+			children = (
+				6CA371982BCD58EC00BFBE15 /* Model */,
+				6CA371972BCD58E700BFBE15 /* View */,
+				6CA371962BCD58E200BFBE15 /* Controller */,
+			);
+			path = WorldClock;
+			sourceTree = "<group>";
+		};
+		6CA371962BCD58E200BFBE15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CA3717B2BCD2EE400BFBE15 /* WorldClockViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CA371972BCD58E700BFBE15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CA371922BCD58D000BFBE15 /* WorldClock.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CA371982BCD58EC00BFBE15 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -191,7 +334,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA3719E2BCD59AD00BFBE15 /* Stopwatch.storyboard in Resources */,
+				6CA371942BCD58D000BFBE15 /* WorldClock.storyboard in Resources */,
 				6CA3716C2BCD235D00BFBE15 /* LaunchScreen.storyboard in Resources */,
+				6CA3719B2BCD597800BFBE15 /* Alarms.storyboard in Resources */,
+				6CA371A12BCD59F800BFBE15 /* Timers.storyboard in Resources */,
+				6CA371852BCD54D900BFBE15 /* Task.rtf in Resources */,
 				6CA371692BCD235D00BFBE15 /* Assets.xcassets in Resources */,
 				6CA371672BCD235D00BFBE15 /* Main.storyboard in Resources */,
 			);
@@ -227,7 +375,7 @@
 			files = (
 				6CA371832BCD50CA00BFBE15 /* TimersViewController.swift in Sources */,
 				6CA3717F2BCD4F9600BFBE15 /* AlarmsViewController.swift in Sources */,
-				6CA3717C2BCD2EE400BFBE15 /* MainViewController.swift in Sources */,
+				6CA3717C2BCD2EE400BFBE15 /* WorldClockViewController.swift in Sources */,
 				6CA371812BCD506E00BFBE15 /* StopwatchViewController.swift in Sources */,
 				6CA371602BCD235D00BFBE15 /* AppDelegate.swift in Sources */,
 				6CA371622BCD235D00BFBE15 /* SceneDelegate.swift in Sources */,
@@ -251,6 +399,38 @@
 				6CA3716B2BCD235D00BFBE15 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA371922BCD58D000BFBE15 /* WorldClock.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA371932BCD58D000BFBE15 /* Base */,
+			);
+			name = WorldClock.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA371992BCD597800BFBE15 /* Alarms.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA3719A2BCD597800BFBE15 /* Base */,
+			);
+			name = Alarms.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA3719C2BCD59AD00BFBE15 /* Stopwatch.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA3719D2BCD59AD00BFBE15 /* Base */,
+			);
+			name = Stopwatch.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA3719F2BCD59F800BFBE15 /* Timers.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA371A02BCD59F800BFBE15 /* Base */,
+			);
+			name = Timers.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
